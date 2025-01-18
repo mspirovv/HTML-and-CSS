@@ -1,0 +1,35 @@
+html {
+    font-family: Lato,sans-serif;
+}
+
+.container {
+   box-sizing: border-box;
+   max-width: 1300px;
+   height: auto;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+article {
+    border: 1px solid gray;
+    margin: 1em 9em;
+    padding: 2em;
+    padding-top: 0;
+    border-radius: 0.3em;
+}
+
+ p:first-of-type {
+    font-size: 20px;
+}
+
+
+.published {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.author,
+.date  {
+font-weight: bold;
+}
