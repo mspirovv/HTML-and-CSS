@@ -1,0 +1,52 @@
+body {
+    padding: 1em;
+    margin: 0.5em
+}
+
+.link-button {
+    display: inline-block;
+    padding: 1em;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.link-button:first-of-type {
+    background-color: #ccc;
+}
+.link-button:nth-child(3) {
+    background-color: orange;
+}
+.link-button:nth-child(4) {
+    background-color: lightyellow;
+}
+.link-button:nth-child(6) {
+    background-color: #ccc;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.button:first-of-type {
+    background-color: #ccc;
+}
+.button:nth-child(9) {
+    background-color: orange;
+}
+.button:nth-child(10) {
+    background-color: lightyellow;
+}
+.button:nth-child(12) {
+    background-color: #ccc;
+}   
+
