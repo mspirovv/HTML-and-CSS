@@ -1,0 +1,54 @@
+.gallery {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    align-items: stretch;
+}
+
+.gallery li,
+.gallery a,
+.gallery figure,
+.gallery span {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.gallery li {
+    flex: 0 0 300px;
+    border: 4px solid black;
+    background-color: color #fff;
+    border-radius: 0.2em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0 0, 2);
+    padding: 1.5em;
+    position: relative
+}
+
+.gallery a {
+    text-decoration: none;
+    color: #999;
+
+}
+
+.gallery span {
+    justify-content: center;
+}
+
+.gallery figure {
+    justify-content: center;
+
+}
+
+.gallery figcaption {
+    color: #999;
+    font-style: italic;
+    padding-top: 1em;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
