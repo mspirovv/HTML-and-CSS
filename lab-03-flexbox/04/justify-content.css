@@ -1,0 +1,41 @@
+.flex-container {
+    max-width: 400px;
+    margin: 1em;
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+}
+
+.flex-item {
+    background-color: #cccccc;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+ justify-content: flex-end;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0.5em;
+}
