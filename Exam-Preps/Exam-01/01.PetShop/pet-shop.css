@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    border: none;
+    border-top: 5px solid black;
+}
+
+body {
+    background-color: #eee;
+    margin: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    border-radius: 0.3em;
+    justify-content: center;
+    justify-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    width: 550px;
+    margin: 2em;
+}
+
+.top-side {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 750px;
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid green;
+    width: 750px;
+    height: 200px;
+    background-color: #eee;
+    justify-content: center;
+    padding: 1em 2em 2em 1em;
+
+}
+
+.content .about {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 2em;
+    color: green;
+}
+
+main p {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    margin: 1em;
+
+}
+
+footer {
+    background-color: #eee;
+    padding: 1em;
+    padding-bottom: 1.3em;
+    font-size: 14px;
+}
+
+
+
+footer .mission {
+    color: #fff;
+    background-color: green;
+    flex-grow: 1;
+    padding: 0.3em;
+    text-transform: uppercase;
+
+}
+
+footer .vision {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 0.3em;
+    color: green;
+    background-color: #eee;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+
+footer p {
+    color: gray;
+    justify-content: left;
+    margin: 0.8em;
+    padding-bottom: 1.4em;
+}

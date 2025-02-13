@@ -1,0 +1,367 @@
+@import url('');
+html {
+    box-sizing: border-box;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 "Poppins",sans-serif;
+}
+
+body, input, textarea, table {
+    font:inherit;
+}
+
+
+.section {
+padding: 1em max(2em, calc((100% - 60rem) / 2 ));
+}
+
+.section p:last-child {
+padding: 0;
+}
+.section.site-header {
+    background-color: #F195B2;
+    padding-bottom: 0;
+}
+
+.section.site-header .aside .socials,
+.section.site-header .aside .links {
+display: flex;
+gap: 1em;
+justify-content: center;
+padding-bottom: 0;
+}
+
+.section.site-header .aside .links {
+    padding-bottom: 1em;
+
+}
+.section.site-header .aside .links a {
+   text-decoration: none;
+}
+
+.section.site-header .aside .socials li,
+.section.site-header .aside .links li{
+    display: block;
+    color: #fff;
+}
+
+.section.site-header .socials li a {
+    color: #fff;  
+}
+
+
+.section.site-header .aside .socials {
+    margin-bottom: -1em;
+    }
+
+.section.site-header .aside .socials li .title {
+    display: none;
+}
+
+.section.site-header .main {
+    position: relative;
+    border-radius: 5em;
+    background-color: #fff;
+    padding: 0.5em 3em;
+    position: relative;
+    z-index: 100;
+    bottom: -2em;
+}
+
+.section.site-header .main .site-title {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section.site-header .main .site-title a {
+    color: #F195B2;
+}
+
+.section.site-header .main .site-title a span {
+    color: #62C3E7;
+    text-transform: lowercase;
+}
+
+.section.site-header .main a {
+display: block;
+text-decoration: none;
+color: #000;
+}
+
+.section.site-header nav ul {
+    padding-bottom: 0;
+display: flex;
+gap: 1em;
+}
+
+.section.site-header nav li {
+    display: block;
+}
+
+.section.site-header nav li:nth-child(3) {
+    margin-right: auto;
+}
+
+.section.site-header nav li a {
+    padding: 1em 1.5em;
+}
+.section.banner {
+    background-color: #666;
+    color: white;
+    padding-block: 20vh;
+    text-align: center;
+    justify-items: center;
+    background-image: url('./images/carousel-1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.section.banner::before {
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgb(0, 0, 0 , 0.5);
+    z-index: 1;
+}
+
+.section.banner > * {
+    position: relative;
+    z-index: 10;
+    text-shadow: 0 0 1em #000;
+}
+
+.section.banner h2 {
+    display: flex;
+    max-width: 16ch;
+    font-size: 3.5em;
+
+
+
+}
+
+.section.banner p {
+    padding: 0 4em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.section.featured {
+    background-color: #C8E7F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+ 
+}
+
+.section.featured .wrapper {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.section.featured .aboutus,
+.section.featured .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Центрира съдържанието по вертикала */
+    padding: 1em;
+    flex-grow: 1; /* Позволява на тези елементи да растат и запълват наличното пространство */
+}
+.section.featured hr {
+    width: 15%;
+    height: 2px;
+    background-color: #E9A4BF;
+    border: none;
+    border: 3px solid #E9A4BF;
+    margin-bottom : 1em;
+    margin-top: 3em;
+}
+.section.featured .wrapper .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 439px; /* Максимална ширина на изображението */
+    height: auto;
+}
+
+
+.section.featured .wrapper .media img {
+    width: 100%;
+    height: auto;
+    max-width: 439px;
+    max-height: 593px;
+
+}
+.section.featured .aboutus {
+    display: block;
+}
+
+.section.featured .wrapper .aboutus .different {
+    color: #8E948B;
+    margin-bottom: 0.5em;
+}
+
+.section.featured .features {
+    display: block;
+  
+}
+.section.featured h3 {
+    font-size: 2em;
+}
+
+.section.featured h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.section.featured .wrapper {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+.section.featured h3 {
+    text-align: center;
+    margin-bottom: 1em;  
+}
+
+.section.featured .features p {
+    margin-bottom: 0.5em;
+}
+.section.featured .features ul li {
+    display: block;
+}
+
+
+.section.featured .features ul li::before {
+    content: "✔"; 
+    color: #63C3E7; 
+    font-size: 1.2em; 
+    margin-right: 8px;
+    font-weight: bold;
+}
+.section.site-footer {
+    background-color: #eee;
+    text-align: center;
+}
+
+.section.site-footer .wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.section.site-footer .wrapper .adress {
+    border-right: 1px solid black;
+    padding: 1em;
+}
+
+.section.site-footer .wrapper .time-open {
+    padding: 1em;
+}
+.section.site-footer .site-title {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+.section.site-footer .footer-socials {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    
+}
+
+.section.site-footer .footer-socials a {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    border: 2px solid #B0E1F3;
+    text-decoration: none; 
+    color: #B0E1F3; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.section.site-footer .footer-socials  li {
+display: block;
+}
+
+.section.site-footer .footer-socials  li .title {
+    display: none;
+}
+
+.section.site-footer .site-title a {
+    color: #F195B2;
+    text-decoration: none;
+    
+}
+
+.section.site-footer .site-title a span {
+    color: #62C3E7;
+    text-transform: lowercase;
+}
+
+.section.site-footer h5 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+ .pink {
+    background-color: #F195B2;
+    color:white;
+    padding: 0.8em 2em;
+    margin: 1em;
+    border: none;
+    border-radius: 4em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.blue {
+    background-color: #62C3E7;
+    color:white;
+    padding: 0.8em 2em;
+    margin: 1em;
+    border: none;
+    border-radius: 4em;
+    font-weight: bold;
+    justify-content: center;
+}
+.domain-text {
+    color: #F195B2;
+}
