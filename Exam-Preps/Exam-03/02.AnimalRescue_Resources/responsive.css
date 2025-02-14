@@ -1,0 +1,73 @@
+@media screen and (width <= 600px ) {
+    
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+}
+
+header nav {
+    margin-top: 3em;
+    justify-content: center;
+}
+header nav img {
+   position: absolute;
+   top: 7%;
+   bottom: 50%;
+}
+
+.header-title {
+    padding: 0.5em;
+    text-align: center;
+}
+.header-title h1 {
+    font-size: 2.5em;
+}
+
+.our-dogs-wrapper {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.our-dogs-wrapper ul {
+    display: flex;
+    gap: 0 6em;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.our-dogs-wrapper h3 {
+    font-size: 1.1em;
+}
+.our-dogs-wrapper p {
+    font-size: 0.9.em;
+}
+.our-dogs-wrapper ul li {
+    margin-bottom: 1em;
+    width: 40%;
+    
+}
+
+.our-dogs-wrapper ul li img {
+    width: 100%;
+    height: 200px;
+   
+}
+
+.helpNeed ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.helpNeed ul li h4 {
+    font-size: 19px;
+}
+
+footer {
+    font-size: 14px;
+}
+}
