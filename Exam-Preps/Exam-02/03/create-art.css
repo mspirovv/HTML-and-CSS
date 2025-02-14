@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 "Playwrite PE" ,sans-serif;
+}
+
+body, input, textarea, table {
+    font:inherit;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.section-header {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;    
+}
+
+.section-header nav ul   {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 4em;
+  
+}
+
+.section-header nav li {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: block;
+    padding: 1em;
+}
+
+.section-header nav ul li a {
+    text-decoration: none;
+}
+
+.section-header button {
+    width: 255px;
+    height: 75px;
+    border-radius: 0.5em;
+    color: #3163A7;
+    background-color: #F0F0F0;
+    font-weight: bold;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+}
+
+.main .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .media img {
+    display: block;
+    margin: 0 auto;
+    width: 950px;
+    height: auto;
+    
+}
+.main .wrapper {
+    display: flex;
+}
+
+h1 {
+    font-size: 4em;
+    color: #314584;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #314584;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.text-content p {
+    margin-bottom: 0.5em;
+    color: #807A89;
+}
+
+.main-buttons {
+    
+    margin-top: 1em;
+    display: flex;
+    gap: 2em;
+}
+
+.main-buttons .more-about {
+    font-family: Roboto, sans-serif;
+    padding: 1em;
+    border-radius: 3em;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.main-buttons .touch {
+    font-family: Roboto, sans-serif;
+    padding: 1em;
+    border-radius: 3em;
+    background-color: #fff;
+    color: #43619E;
+    font-weight: bold;
+    border: 1px solid #ccc; 
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.services .services-media {
+    display: block;
+    margin: 0 auto;
+}
+
+.services .services-media img {
+    width: 300px;
+}
+
+.services article {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.side-img {
+    position: relative; 
+    width: 100%;
+}
+.side-img2 {
+    position: relative; 
+    width: 100%; 
+}
+
+
+
+.side-img img {
+    position: absolute;
+    left: -100px;
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 250px; 
+}
+  
+.side-img2 img {
+    position: absolute;
+    right: -100px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 250px; 
+}
+  .red {
+    color: red;
+  }
+
+  hr {
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .company {
+    margin-top: 3em;
+  }
+
+  .our-company {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    color:red;
+    font-size: 0.7em;
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 11px;
+    width: 550px;
+    justify-content: center;
+    margin: 0 auto;
+    color: #90C0E5;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    
+  }
+
+  input[type="email"] {
+  width: 90em;
+  height: 60px;
+  background: #314584;
+  border: none;
+  padding: 0px 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  font-family: "Playwrite PE", cursive;
+}
+
+
+textarea{
+    background: #314584;
+    border: none;
+    width: 90em;
+    height: 8em;
+    padding: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-family: "Playwrite PE", cursive;
+
+
+}
+textarea::placeholder {
+    color: #fff;
+}
+input::placeholder {
+    text-align: left;
+ color: #fff;
+
+}
+
+.section-footer {
+    width: 100vw;  /* Прави футъра с ширина колкото целия екран */
+    background-color: #314584;
+    padding: 70px 0 0 0;
+    position: relative;
+    left: 0;
+}
+
+.section-footer nav ul {
+    text-decoration: none;
+    gap: 1em;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.section-footer nav ul li {
+    display: block;
+    padding: 2em;
+}
+
+.section-footer nav ul li a {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-footer p {
+    font-family: Roboto, sans-serif;
+    padding: 2em;
+    color: #fff;
+    text-align: center;
+}

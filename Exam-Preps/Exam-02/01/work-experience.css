@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #FFF0E4;
+    
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 Margarine,sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+    gap: 2em;
+    justify-content: center;
+    padding: 0 2em;
+
+}
+
+
+.main {
+    display: block;
+    flex-direction: column;
+    flex: 1;
+    width: 420px; 
+    height: 620px; 
+    border: 1px solid #A09790;
+
+    margin-top: 6em;    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.main h2 {
+    font-size: 2em;
+}
+
+.main p ,
+.main h2,
+.main span {
+    margin: 1em;
+}
+.aside {
+    display: flex;
+    flex: 2;
+    max-width: 900px;
+    margin-top: 6em;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
+
+.main i {
+   padding-right: 0.5em;
+   color: #2991E6;
+}
+
+.phone {
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+.skill-fill {
+    text-align: center;
+    color: #fff;
+    margin-left: 1em;
+    background-color: #2991E6;
+    border-radius: 5em;
+    margin-bottom: 1em;
+}
+
+.skills {   
+    margin-bottom: 5em;
+}
+
+.aside {
+    border: 1px solid black;
+}
+
+.aside h2 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+
+.aside h3 {
+    text-align: left;
+    padding: 1em;
+    color: #79726C;
+    padding-bottom: 0;
+}
+
+.aside .date {
+    padding: 1em;
+    color: #2991E6;
+    font-weight: bold; 
+    margin-bottom: 0;
+}
+
+.aside p {
+    color: #180000;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0;
+}
+
+.aside article:last-of-type p:last-of-type {
+   margin: 0;
+}
+
+
+hr {
+    display: block;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 2.5em;
+}
